@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container {
+            margin: auto;
+            width: 50%;
+            padding: 30px;
+            background: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 data-th-text="${name}">Welcome to home page</h1>
+        <p>Role : <span data-th-text="${role}"></span></p>
+        <a th:href="${github}">GitHub connect</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo elementum elementum. Maecenas eleifend bibendum tortor, sit amet gravida elit. Quisque vel vulputate tellus. Donec ultrices a velit eu lacinia. In non sagittis felis, vel ultricies diam. Cras consequat non nisl mollis eleifend. Nullam erat eros, efficitur maximus nulla eu. </p>
+    </div>
+
+</body>
+</html>
